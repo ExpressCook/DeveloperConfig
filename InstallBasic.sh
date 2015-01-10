@@ -9,9 +9,9 @@ echo 'install the qtcreator'
 apt-get install qtcreator
 
 echo 'install the toolchain'
-unzip gcc-linaro.zip
-mv gcc-linaro /usr/local
-mv /usr/local/gcc-linaro /usr/local/gcc-linaro-arm-linux-gnueabihf-4.8-2013.04-20130417_linux
+tar -xJf gcc-linaro.tar.xz
+mv gcc-linaro-arm-linux-gnueabihf-4.8-2013.04-20130417_linux /usr/local
+mv /usr/local/gcc-linaro-arm-linux-gnueabihf-4.8-2013.04-20130417_linux /usr/local/gcc-linaro
 
 echo 'install the qt library'
 unzip qt-5.2.zip
