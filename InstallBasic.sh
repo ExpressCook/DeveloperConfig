@@ -16,6 +16,3 @@ mv /usr/local/gcc-linaro-arm-linux-gnueabihf-4.8-2013.04-20130417_linux /usr/loc
 echo 'install the qt library'
 unzip qt-5.2.zip
 mv qt-5.2 /usr/local
-
-echo 'start the qt and set the qt kit...'
-qtcreator
